@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="OS" value="windows"/>
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="codenbox.utilities.ExtentReporterNG"/>
+    <listener class-name="codenbox.utilities.TestTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="codenbox.testCases.RegistrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verify_refistration"/>
+        </methods>
+      </class> <!-- codenbox.testCases.RegistrationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
