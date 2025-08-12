@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests">
+
+	<parameter name="OS" value="windows"></parameter>
+
+	<listeners>
+		<listener class-name="codenbox.utilities.ExtentReporterNG"></listener>
+		<listener class-name="codenbox.utilities.TestTransformer"></listener>
+	</listeners>
+
+	<test name="ChromeTest">
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<!--<class name="codenbox.testCases.HomeTest"/> -->
+			<!--<class name="codenbox.testCases.LoginTest"/> -->
+			<class name="codenbox.testCases.LoginDataDrivenTest_2" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<!-- <test name="FirefoxTest">
+  	<parameter name="Browser" value="firefox"></parameter>
+    <classes>
+      <class name="codenbox.testCases.HomeTest"/>
+      <class name="codenbox.testCases.RegistrationTest"/>
+    </classes>
+  </test> -->
+</suite> <!--
+Suite -->
+
