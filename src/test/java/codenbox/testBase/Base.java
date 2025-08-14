@@ -15,12 +15,14 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
@@ -45,20 +47,28 @@ public class Base {
 	public void setUp(String browserName) throws IOException {
 		if (getDriver() == null) {
 			
-			ChromeOptions options = new ChromeOptions();
+			ChromeOptions optionsChrome = new ChromeOptions();
 			FirefoxOptions optFirefox = new FirefoxOptions();
 			prop = new Properties();
 			fs = new FileInputStream("./src//test//resources//data.properties"); // will connect with a file
 			prop.load(fs); // will load the file
+			
+			// remote or grid test env option
+			/*DesiredCapabilities cap = new DesiredCapabilities();
+			cap.setPlatform(Platform.WIN11);
+			cap.setBrowserName("chrome");*/
+		
+			
 
+			// local test env option
 			switch (browserName.toLowerCase()) {
 			case "chrome":
-				options.addArguments("--incognito");
-				driver.set(new ChromeDriver(options));
+				optionsChrome.addArguments("--incognito");
+				driver.set(new ChromeDriver(optionsChrome));
 				break;
 			case "chromeheadless":
-				options.addArguments("headless");
-				driver.set(new ChromeDriver(options));
+				optionsChrome.addArguments("headless");
+				driver.set(new ChromeDriver(optionsChrome));
 				getDriver().manage().window().setSize(new Dimension(1440, 900));
 				break;
 			case "firefox":
