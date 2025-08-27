@@ -1,11 +1,26 @@
-2025-08-12 16:59:40.492 [main] INFO  codenbox.testCases.HomeTest - Clicked on My Account Link
-2025-08-12 16:59:47.601 [main] INFO  codenbox.testCases.HomeTest - ****Starting Registration Test****
-2025-08-12 16:59:47.601 [main] INFO  codenbox.testCases.HomeTest - Clicked on My Account Link
-2025-08-12 16:59:55.026 [main] INFO  codenbox.testCases.LoginTest - *** Starting Login Test ***
-2025-08-12 17:00:02.389 [main] INFO  codenbox.testCases.LoginTest - *** Starting Login Test ***
-2025-08-12 17:00:10.424 [main] INFO  codenbox.testCases.RegistrationTest - Enter Registration Details
-2025-08-12 17:00:17.514 [main] INFO  codenbox.testCases.RegistrationTest - Enter Registration Details
-2025-08-14 14:53:51.596 [main] INFO  codenbox.testCases.HomeTest - ****Starting Registration Test****
-2025-08-14 14:53:51.628 [main] INFO  codenbox.testCases.HomeTest - Clicked on My Account Link
-2025-08-14 14:53:54.764 [main] INFO  codenbox.testCases.LoginTest - *** Starting Login Test ***
-2025-08-14 14:54:00.070 [main] INFO  codenbox.testCases.RegistrationTest - Enter Registration Details
+2025-08-24 16:25:38.803 [main] INFO  codenbox.testCases.HomeTest - Clicked on My Account Link
+2025-08-24 16:25:41.731 [main] INFO  codenbox.testCases.LoginTest - *** Starting Login Test ***
+2025-08-24 16:37:53.101 [main] INFO  codenbox.testCases.HomeTest - ****Starting Registration Test****
+2025-08-24 16:37:53.126 [main] INFO  codenbox.testCases.HomeTest - Clicked on My Account Link
+2025-08-24 16:37:56.200 [main] INFO  codenbox.testCases.LoginTest - *** Starting Login Test ***
+2025-08-25 06:37:22.479 [main] INFO  codenbox.testCases.HomeTest - ****Starting Registration Test****
+2025-08-25 06:37:22.514 [main] INFO  codenbox.testCases.HomeTest - Clicked on My Account Link
+2025-08-25 06:37:25.690 [main] INFO  codenbox.testCases.LoginTest - *** Starting Login Test ***
+2025-08-26 08:51:10.659 [main] INFO  codenbox.testCases.HomeTest - ****Starting Registration Test****
+2025-08-26 08:51:10.691 [main] INFO  codenbox.testCases.HomeTest - Clicked on My Account Link
+2025-08-26 08:51:13.800 [main] INFO  codenbox.testCases.LoginTest - *** Starting Login Test ***
+2025-08-26 11:46:19.782 [main] INFO  codenbox.testCases.HomeTest - ****Starting Registration Test****
+2025-08-26 11:46:19.797 [main] INFO  codenbox.testCases.HomeTest - Clicked on My Account Link
+2025-08-26 11:46:22.920 [main] INFO  codenbox.testCases.LoginTest - *** Starting Login Test ***
+2025-08-26 14:29:40.521 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***
+2025-08-26 14:29:49.299 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***
+2025-08-26 14:29:58.044 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***
+2025-08-26 14:30:06.799 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***
+2025-08-26 14:30:16.675 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***
+2025-08-26 14:30:21.062 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***
+2025-08-26 14:30:55.787 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***
+2025-08-26 14:31:03.872 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***
+2025-08-26 14:31:11.994 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***
+2025-08-26 14:31:20.092 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***
+2025-08-26 14:31:28.145 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***
+2025-08-26 14:31:32.678 [TestNG-tests-1] INFO  codenbox.testCases.LoginDataDrivenTest_2 - *** Starting Login Test ***

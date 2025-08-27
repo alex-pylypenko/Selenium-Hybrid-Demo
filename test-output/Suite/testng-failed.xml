@@ -8,14 +8,26 @@
     <listener class-name="codenbox.utilities.TestTransformer"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="codenbox.testCases.RegistrationTest">
+      <class name="codenbox.testCases.HomeTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verify_refistration"/>
+          <include name="homeAccount"/>
         </methods>
-      </class> <!-- codenbox.testCases.RegistrationTest -->
+      </class> <!-- codenbox.testCases.HomeTest -->
+      <class name="codenbox.testCases.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verify_login"/>
+        </methods>
+      </class> <!-- codenbox.testCases.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -26,10 +26,11 @@ public class DataProviders {
 		return cellsData;
 
 	}
-
-	@Test(dataProvider = "LoginData")
-	public void Cells(String userName, String column, String result) {
-		System.out.println(userName + " " + column + " " + result);
-	}
+	
+//	// Not needed
+//	@Test(dataProvider = "LoginData")
+//	public void Cells(String userName, String column, String result) {
+//		System.out.println(userName + " " + column + " " + result);
+//	}
 
 }

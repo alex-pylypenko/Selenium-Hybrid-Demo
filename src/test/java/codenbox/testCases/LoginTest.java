@@ -34,7 +34,7 @@ public class LoginTest extends Base {
 		MyAccountPage myAcc = new MyAccountPage(getDriver());
 		
 		SoftAssert sa = new SoftAssert();
-		sa.assertTrue(myAcc.isMyAccountExist()); // intentionally making failed
+		sa.assertTrue(myAcc.isMyAccountExist());
 		sa.assertAll();
 		
 		myAcc.clickLogut();

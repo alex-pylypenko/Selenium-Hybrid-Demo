@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-06T06:55:17 EEST" name="Suite" finished-at="2025-08-06T06:55:25 EEST" duration-ms="8617">
+  <suite started-at="2025-08-26T14:30:52 EEST" name="Suite" finished-at="2025-08-26T14:31:38 EEST" duration-ms="45973">
     <groups>
       <group name="Regression">
-        <method signature="HomeTest.homeAccount()[pri:0, instance:codenbox.testCases.HomeTest@4b6e2263]" name="homeAccount" class="codenbox.testCases.HomeTest"/>
-        <method signature="LoginTest.verify_login()[pri:0, instance:codenbox.testCases.LoginTest@289710d9]" name="verify_login" class="codenbox.testCases.LoginTest"/>
+        <method signature="LoginDataDrivenTest_2.verify_loginDDT_2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" name="verify_loginDDT_2" class="codenbox.testCases.LoginDataDrivenTest_2"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-08-06T06:55:17 EEST" name="Test" finished-at="2025-08-06T06:55:25 EEST" duration-ms="8617">
-      <class name="codenbox.testCases.HomeTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:codenbox.testCases.HomeTest@4b6e2263]" started-at="2025-08-06T06:55:17 EEST" name="setUp" finished-at="2025-08-06T06:55:20 EEST" duration-ms="3025" status="PASS">
+    <test started-at="2025-08-26T14:30:52 EEST" name="ChromeTest" finished-at="2025-08-26T14:31:38 EEST" duration-ms="45973">
+      <class name="codenbox.testCases.LoginDataDrivenTest_2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:30:53 EEST" name="setUp" finished-at="2025-08-26T14:30:55 EEST" duration-ms="2721" status="PASS">
           <params>
             <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
               <value>
                 <![CDATA[chrome]]>
               </value>
@@ -22,19 +26,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homeAccount()[pri:0, instance:codenbox.testCases.HomeTest@4b6e2263]" started-at="2025-08-06T06:55:20 EEST" name="homeAccount" finished-at="2025-08-06T06:55:21 EEST" duration-ms="581" status="PASS">
+        <test-method signature="verify_loginDDT_2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:30:55 EEST" name="verify_loginDDT_2" data-provider="LoginData" finished-at="2025-08-26T14:31:01 EEST" duration-ms="5642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@codenbox.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdks123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homeAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:codenbox.testCases.HomeTest@4b6e2263]" started-at="2025-08-06T06:55:21 EEST" name="tearDown" finished-at="2025-08-06T06:55:21 EEST" duration-ms="128" status="PASS">
+        </test-method> <!-- verify_loginDDT_2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:01 EEST" name="tearDown" finished-at="2025-08-26T14:31:01 EEST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- codenbox.testCases.HomeTest -->
-      <class name="codenbox.testCases.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:codenbox.testCases.LoginTest@289710d9]" started-at="2025-08-06T06:55:21 EEST" name="setUp" finished-at="2025-08-06T06:55:23 EEST" duration-ms="2642" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:01 EEST" name="setUp" finished-at="2025-08-26T14:31:03 EEST" duration-ms="2338" status="PASS">
           <params>
             <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
               <value>
                 <![CDATA[chrome]]>
               </value>
@@ -43,15 +67,196 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_login()[pri:0, instance:codenbox.testCases.LoginTest@289710d9]" started-at="2025-08-06T06:55:23 EEST" name="verify_login" finished-at="2025-08-06T06:55:25 EEST" duration-ms="1931" status="PASS">
+        <test-method signature="verify_loginDDT_2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:03 EEST" name="verify_loginDDT_2" data-provider="LoginData" finished-at="2025-08-26T14:31:09 EEST" duration-ms="5609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@codenbox.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wertr123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:codenbox.testCases.LoginTest@289710d9]" started-at="2025-08-06T06:55:25 EEST" name="tearDown" finished-at="2025-08-06T06:55:25 EEST" duration-ms="121" status="PASS">
+        </test-method> <!-- verify_loginDDT_2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:09 EEST" name="tearDown" finished-at="2025-08-26T14:31:09 EEST" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- codenbox.testCases.LoginTest -->
-    </test> <!-- Test -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:09 EEST" name="setUp" finished-at="2025-08-26T14:31:11 EEST" duration-ms="2396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_loginDDT_2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:11 EEST" name="verify_loginDDT_2" data-provider="LoginData" finished-at="2025-08-26T14:31:17 EEST" duration-ms="5594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@codenbox.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jsndfs234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT_2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:17 EEST" name="tearDown" finished-at="2025-08-26T14:31:17 EEST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:17 EEST" name="setUp" finished-at="2025-08-26T14:31:20 EEST" duration-ms="2386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_loginDDT_2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:20 EEST" name="verify_loginDDT_2" data-provider="LoginData" finished-at="2025-08-26T14:31:25 EEST" duration-ms="5558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kjasn124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT_2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:25 EEST" name="tearDown" finished-at="2025-08-26T14:31:25 EEST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:25 EEST" name="setUp" finished-at="2025-08-26T14:31:28 EEST" duration-ms="2376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_loginDDT_2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:28 EEST" name="verify_loginDDT_2" data-provider="LoginData" finished-at="2025-08-26T14:31:30 EEST" duration-ms="2070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eqweq3333@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT_2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:30 EEST" name="tearDown" finished-at="2025-08-26T14:31:30 EEST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:30 EEST" name="setUp" finished-at="2025-08-26T14:31:32 EEST" duration-ms="2347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_loginDDT_2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:32 EEST" name="verify_loginDDT_2" data-provider="LoginData" finished-at="2025-08-26T14:31:38 EEST" duration-ms="5565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@codenbox.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jsndfs234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT_2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:codenbox.testCases.LoginDataDrivenTest_2@6c0d9d86]" started-at="2025-08-26T14:31:38 EEST" name="tearDown" finished-at="2025-08-26T14:31:38 EEST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- codenbox.testCases.LoginDataDrivenTest_2 -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>
